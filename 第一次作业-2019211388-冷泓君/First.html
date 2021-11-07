@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: blue;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .signtop{
+            font-family: "黑体";
+            border: 0px;
+            font-size: 16px;
+            margin-right: 0px;
+            margin-left: 24px;
+        }
+        .signinput{
+            margin-right: 24px;
+            margin-left: 24px;
+            margin-top: 24px; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 14px;
+            width: 352px;
+            height: 48px;
+            padding-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-right: 0px;
+            border: 0px;
+            border-bottom: 1px solid black;
+        }
+        .foreign{
+            margin-right: -24px;
+            margin-left: 24px;
+            color: rgb(18, 18, 18);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 15px;
+            height: 20px;
+            margin-top: 12px;
+        }
+        .foreign1{
+            border: 0px;
+            font-size: 14px;
+            font-weight: 400;
+            height: 20px;
+            color: rgb(23, 81, 153);
+        }
+        .foreign2{
+            border: 0px;
+            color: rgb(133, 144, 166);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            height: 20px;
+            width: 70px;
+            float: right;
+        }
+        .enter{
+            margin-right: 24px;
+            margin-left: 24px;
+            background-color: rgb(0, 102, 255);
+            border-style: solid;
+            font-size: 14px;
+            font-weight: 400;
+            height: 36px;
+            margin-top: 30px;
+            padding-right: 16px;
+            padding-left: 16px;
+            width: 352px;
+        }
+        .tip{
+            margin-right: 24px;
+            margin-left: 24px;
+            color: rgb(128, 128, 128);
+            display: block;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 13px;
+            height: 33.6px;
+            text-align: left;
+            width: 352px;
+            padding-bottom: 12px;
+            padding-top: 35px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .socialLogin{
+            box-sizing: border-box;
+            color: rgb(133, 144, 166);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 15px;
+            height: 60px;
+            line-height: 60px;
+            padding-left: 24px;
+            padding-right: 24px;           
+        }
+        .social{
+            border: 0px;
+            font-size: 14px;
+            line-height:60px ;
+            height: 60px;
+            margin-left: 2px;
+        }
+        .footer{
+            margin-left: 24px;
+            margin-right: 24px;
+            width: 400px;
+            padding-left: 0px;
+            padding-right: 24px;
+            height: 60px;
+            display: inline-flex;
+            height: 60px;
+            margin-top: 24px;
+        }
+        .kaitong{
+            
+            margin-right: 68px;
+            font-size: 15px;
+            align-items: center;
+            color: rgb(0,102,255);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .xiazai{
+            margin-left: 88px;
+            color: rgb(0,102,255);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+        }
+        img{
+            width: 20px;
+            height: 20px; 
+            text-align: right;
+            margin: auto;
+        }
+    </style>
+</head>
+<body style="background-color:white;width: 400px;height: 495px;">
+    <div style="padding-top: 15px;width:352px">
+        <div>
+            <button class="signtop">免密码登录</button>
+            <button class="signtop">密码登录</button>
+        </div>
+        <div>
+            <div >
+                <input type="text"class="signinput" placeholder="手机号或邮箱">
+            </div>
+            <div >
+                <input type="password" class="signinput" placeholder="密码">
+            </div>
+            <div  class="foreign">
+                <button  class="foreign1">海外手机号登录</button>
+                <button class="foreign2">忘记密码</button>
+            </div>
+        </div>
+        <div>
+            <button class="enter">登录</button>
+        </div>
+        <div class="tip">
+            "未注册手机验证后自动登录，注册即代表同意"
+            <a href="https://www.zhihu.com/term/zhihu-terms">《知乎协议》</a>
+            <a href="https://www.zhihu.com/term/privacy">《隐私保护指引》</a>
+        </div>
+        <div class="spcialLogin">
+            <span style="font-size: 15px;margin-left: 2px;-webkit-tap-highlight-color: rgba(18,18,18,0);margin-left: 24px;margin-right: 24px;">社交账号登录</span>
+            <button class="social"><img src="img/微信.svg">微信</button>
+            <button class="social"><img src="img/QQ.svg">QQ</button>
+            <button class="social"><img src="img/微博.svg">微博</button>
+        </div>
+        <div class="footer">
+            <div>
+                <a href="https://www.zhihu.com/org/signup"><span  class="kaitong"><img src="img/对勾.svg">开通机构号</span></a>
+            </div>
+            <div>
+                <button style="border: 0px;"><span class="xiazai"><img src="img/知乎.svg">下载知乎app</span></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
